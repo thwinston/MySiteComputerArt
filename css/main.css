@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #FA6900;   
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #9EE89E;                      /*change your Bkg color*/
+}
+
+a, a:active, a:visited {
+  color: #FA6900;
+}
+
+.content {
+  margin: 0 auto;
+  min-width: 480px;
+  padding-left: 20px;
+}
+
+
+footer {
+  border-top: 1px dotted #999999;
+  clear: both;
+  padding: 1em 0;
+}
+
+footer p {
+  font-size: 18px;                 /*font size in footer*/
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #C8C1B7;
+  border-bottom: 1px solid #999999;
+  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  height: 60px;
+  position: relative;
+  width: 100%;
+}
+
+header h1 {
+  float: left;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+}
+
+header h1 a, header h1 a:visited, header h1 a:active {
+  color: #FA6900;
+}
+
+header nav ul {
+  float: right;
+  margin: 0;
+}
+
+header nav > ul li {
+  border-bottom: 3px solid white;
+  height: 100%;
+  float: left;
+  font-weight: 600;
+  color: white;
+  border-bottom-color: transparent;
+  list-style-type: none;
+  margin-right: 2rem;
+  transition: border-color 200ms ease-in-out;
+  /* See: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions */
+}
+
+header nav > ul li:hover, header nav > ul li.active {
+  border-bottom-color: #FA6900;
+}
+
+header nav > ul li:hover a, header nav > ul li.active a {
+  color: #FA6900;
+}
+
+header nav a, header nav a:visited {
+  display: block;
+  line-height: 60px;
+  text-decoration: none;
+  color: white;                         /*changes banner text color*/
+  transition: color 200ms ease-in-out;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery li {
+  background-color: #333333;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  float: left;
+  list-style-type: none;
+  padding: 5px;
+  margin: 16px;
+}
+
+.gallery li img {
+  border-radius: 2px;
+  vertical-align: top;
+  height: 200px;
+  width: 200px;
+}
+
+.gallery li img:hover {
+  opacity: 0.5;
+}
+
+.profile-photo {
+}
+
+.profile-content {
+}
